@@ -23,4 +23,5 @@ urlpatterns = [
     path("", include("hello.urls")),  # ← Agregado: raíz redirige a hello
     path("hello/", include("hello.urls")),
     path("newyear/", include("newyear.urls")),  # ← Agregado: ruta para newyear
+    path("tasks/", include("tasks.urls")),  # ← Agregado: ruta para tasks
 ]
