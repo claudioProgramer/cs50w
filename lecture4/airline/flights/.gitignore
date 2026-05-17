@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+
+# Database
+db.sqlite3
+
+# VS Code
+.vscode/
+
+# Repomix
+repomix-output*
+
+# OS
+.DS_Store
+Thumbs.db
